@@ -28,7 +28,8 @@ build() {
   
   cmake .. \
 	-DCMAKE_BUILD_TYPE=Release \
-  	-DCMAKE_INSTALL_PREFIX="/usr"
+  	-DCMAKE_INSTALL_PREFIX="/usr" \
+    -DCMAKE_INSTALL_LIBDIR="/usr/lib"
   make
 }
 
